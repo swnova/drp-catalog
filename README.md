@@ -1,6 +1,6 @@
 # drp-catalog Module 13 Challenge
 Object-Relational Mapping(ORM) Challenge: E-commerce Back End
-## description 
+## Description 
 
 ```shell
 [user story]
