@@ -5,8 +5,17 @@ const sequelize = require('../config/connection.js');
 class Category extends Model {}
 
 Category.init(
+  // category columns
   {
-    // define columns
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+    },
+    category_Name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    }
   },
   {
     sequelize,
