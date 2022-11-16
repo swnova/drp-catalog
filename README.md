@@ -2,6 +2,8 @@
 Object-Relational Mapping(ORM) Challenge: E-commerce Back End
 ## Description 
 
+For this challenge we are tasked with creating the backend for an e-commerce website.
+
 ```shell
 [user story]
 AS A manager at an internet retail company
@@ -21,3 +23,15 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
+
+  ## Installation 
+  
+  to run this program 
+  1.  Run schema file using MYSQL shell
+  2.  ```npm run seed``` to seed database
+  3.  ```npm start```
+  
+  ## Demo
+  https://drive.google.com/file/d/1KzXX418PURODdCviONYA8TrqXUj-tsKX/view
+  
+<img width="1269" alt="Screen Shot 2022-11-15 at 11 05 36 PM" src="https://user-images.githubusercontent.com/113868025/202109558-d07bdce5-5ef1-4067-bba1-380014ee4ae8.png">
